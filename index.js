@@ -105,7 +105,7 @@ export default class Dots extends Component {
       alignDotsOnXAxis,
     } = this.props;
     const width = isActive ? activeDotWidth : passiveDotWidth;
-    const marginTop = alignDotsOnXAxis || !isActive ? 0 : -width / 6;
+    const marginTop = 0;
 
     let height = width;
 
